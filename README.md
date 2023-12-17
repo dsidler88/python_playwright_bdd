@@ -1,7 +1,15 @@
 # playwright-pytest-bdd
 
+
+
 [Playwright Python](https://github.com/Microsoft/playwright-python) BDD framework using
 pytest pytest-bdd page-object allure cucumber-report
+
+## setup
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+playwright install
 
 ## How to run
 

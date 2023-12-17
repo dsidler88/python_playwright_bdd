@@ -19,14 +19,14 @@ def test_i_can_use_the_ui_to_add_different_items_to_my_cart(page):
 def navigate_to_swaglabs(page):
     """I have navigated to the correct URL and logged in."""
     SwagLabs(page).open_swaglabs()
-    if page.get_by_placeholder("someone@example.com").is_visible():
-        page.get_by_placeholder("someone@example.com").click()
-        page.get_by_placeholder("someone@example.com").fill("DXS0OMZ@fpl.com")
-        page.get_by_placeholder("someone@example.com").press("Enter")
-        page.locator("#i0118").fill("Dec2023!")
-        page.locator("#idSIButton9").click()
-    else:
-        print("ms login skipped")
+    #if page.get_by_placeholder("someone@example.com").is_visible():
+    page.get_by_placeholder("someone@example.com").click()
+    page.get_by_placeholder("someone@example.com").fill("")
+    page.get_by_placeholder("someone@example.com").press("Enter")
+    page.locator("#i0118").fill("")
+    page.locator("#idSIButton9").click()
+    #else:
+    print("ms login skipped")
     SwagLabs(page).login_swaglabs("standard_user", "secret_sauce")
 
 
