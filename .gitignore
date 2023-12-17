@@ -23,7 +23,7 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-allure-reports/
+allure-report/
 allure-results/
 bdd-report/
 

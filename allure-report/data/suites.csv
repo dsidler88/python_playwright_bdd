@@ -1,2 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sun Dec 17 16:05:17 EST 2023","Sun Dec 17 16:05:24 EST 2023","6435","tests.step_definition.swag_labs","test_swag_labs","","","","test_i_can_use_the_ui_to_add_different_items_to_my_cart[chromium-Sauce Labs Backpack]","swag_labs.feature: I can use the UI to add different items to my cart"
