@@ -37,7 +37,7 @@ npm install multiple-cucumber-html-reporter
 node generate-multiple-cucumber-html-report.js
 
 ## Pytest BDD
-
+### Generate steps for your features!
 pytest-bdd generate features/shop/shop_order_t_shirt.feature > step_definition/shop/test_shop.py
 
 Can Generate only missing steps, or generate all.

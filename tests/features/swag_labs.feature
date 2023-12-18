@@ -13,3 +13,5 @@ Feature: As a user, I can add items to my shopping cart
   Examples:
     | Item               |
     | Sauce Labs Backpack|
+    | Sauce Labs Bike Light|
+    | Sauce Labs Bolt T-Shirt|
