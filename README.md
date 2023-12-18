@@ -8,7 +8,11 @@ pytest pytest-bdd page-object allure cucumber-report
 ## setup
 python3 -m venv venv
 source venv/bin/activate
+.\venv\Scripts\Activate.ps1
+venv\Scripts\activate
+
 pip install -r requirements.txt
+(might need to install -upgrade pip)
 playwright install
 
 ## How to run
